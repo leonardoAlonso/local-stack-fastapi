@@ -15,7 +15,7 @@ AWS_SECRET_KEY = os.getenv("AWS_SECRET_KEY")
 AWS_REGION = os.getenv("AWS_REGION")
 AWS_BUCKET_NAME = os.getenv("AWS_BUCKET_NAME")
 
-ENDPOINT_URL = f"http://localhost:4566"
+ENDPOINT_URL = f"http://localstack:4566"
 
 
 @app.post("/uploadfile/")
